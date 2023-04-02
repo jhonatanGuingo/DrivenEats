@@ -41,8 +41,10 @@ function verificarSelecao(){
     if (selecao1 !== null  && selecao2 !== null && selecao3 !== null){
         const fechar = document.querySelector('.rodape .fechar-pedido');
         fechar.innerHTML = "Fechar Pedido";
+        fechar.classList.add('green');
+        document.querySelector('.button').disabled = false;
     }
-    
+
 }
 
  

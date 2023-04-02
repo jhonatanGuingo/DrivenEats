@@ -178,7 +178,12 @@ img{
     bottom: 0;
     z-index: 4;
 }
-
+.button{
+    border:none;
+    height:61px;
+    width: 364px;
+    border-radius: 50px;
+}
 .fechar-pedido{
     display: flex;
     flex-direction: column;
@@ -196,6 +201,15 @@ img{
     letter-spacing: 0.018em;
 
 color: #FFFFFF;
+}
+button:disabled {
+	background-color:none;
+}
+button:enabled {
+	background-color: #32B72F;
+}
+.green{
+    background-color: #32B72F;
 }
 
 @media (max-width: 800px) {
