@@ -21,8 +21,27 @@
         <div class="options">
             <h3>Primeiro, seu prato</h1>
             <div class="container-comidas">
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarPrato(this)">
+                    
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
+                    <img src="./img/frango_yin_yang.png"/>
+                    <div class="escrita">
+                        <div class="tipo">
+                    <p > Frango Yin Yang</p>
+                
+                </div>
+                    <div class="description">
+                    <p>Um pouco de batata,</p>
+                    <p>um pouco de salada</p>
+                </div>
+                <div class="price">
+                    <p>R$14,90</p>
+                </div>
+                </div>
+               
+                </div>
+                <div class="box" onclick="selecionarPrato(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -37,24 +56,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
-                    <img src="./img/frango_yin_yang.png"/>
-                    <div class="escrita">
-                        <div class="tipo">
-                    <p > Frango Yin Yang</p>
-                </div>
-                    <div class="description">
-                    <p>Um pouco de batata,</p>
-                    <p>um pouco de salada</p>
-                </div>
-                <div class="price">
-                    <p>R$14,90</p>
-                </div>
-                </div>
-                </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarPrato(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -73,9 +76,9 @@
         </div>
         <div class="options">
             <h3>Agora, sua bebida</h1>
-            <div class="container-comidas">
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <div class="container-bebidas">
+                <div class="box" onclick="selecionarBebida(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -90,8 +93,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarBebida(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -106,8 +109,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarBebida(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -126,9 +129,9 @@
         </div>
         <div class="options">
             <h3>Por fim, sua sobremesa</h1>
-            <div class="container-comidas">
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <div class="container-entradas">
+                <div class="box" onclick="selecionarEntrada(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -143,8 +146,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarEntrada(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -159,8 +162,8 @@
                 </div>
                 </div>
                 </div>
-                <div class="box">
-                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                <div class="box" onclick="selecionarEntrada(this)">
+                    <ion-icon class="display" name="checkmark-circle-outline"></ion-icon>
                     <img src="./img/frango_yin_yang.png"/>
                     <div class="escrita">
                         <div class="tipo">
@@ -178,10 +181,10 @@
             </div>
         </div>
     </div>
-    <div class="rodape">
+    <div class="rodape" >
         <div class="fechar-pedido">
             <p>Selecione os 3 itens</p>
-            <p>para fechar o pedido</p>
+           <p>para fechar o pedido</p>
         </div>
     </div>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
