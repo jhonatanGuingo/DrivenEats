@@ -203,7 +203,7 @@ img{
 color: #FFFFFF;
 }
 button:disabled {
-	background-color:none;
+	background-color: none;
 }
 button:enabled {
 	background-color: #32B72F;
