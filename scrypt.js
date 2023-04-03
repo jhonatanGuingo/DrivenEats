@@ -10,7 +10,7 @@ let total =0;
 function whatsApp() {
     nameF = document.querySelector('.container-comidas .borda .comida').innerText;
     priceF =document.querySelector('.container-comidas .borda .price').innerText;
-    priceF = priceF.substring(3);
+    priceF = priceF.substring(2);
     priceF = priceF.replace(',', '.');
     console.log(priceF);
 
@@ -33,7 +33,7 @@ function whatsApp() {
     total = 'R$'+total;
     console.log(total);
 
-    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Sobremesa : ${nameE}\nTotal: ${total}\n`);
+    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Entradas : ${nameE}\nTotal: ${total}\n`);
     console.log(wpp);
     window.open(wpp);
 
