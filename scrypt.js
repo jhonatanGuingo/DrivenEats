@@ -33,7 +33,7 @@ function whatsApp() {
     total = 'R$'+total;
     console.log(total);
 
-    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Entradas : ${nameE}\nTotal: ${total}\n`);
+    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Sobremesa : ${nameE}\nTotal: ${total}\n`);
     console.log(wpp);
     window.open(wpp);
 
@@ -43,9 +43,13 @@ function selecionarPrato(seletor){
 
     const botaoSelecionadoAnteriormente = document.querySelector('.container-comidas .borda');
     
+    
     if ( botaoSelecionadoAnteriormente !== null ){
         botaoSelecionadoAnteriormente.classList.remove('borda');
+
     }
+
+   
     seletor.classList.add('borda');
     verificarSelecao();
 }

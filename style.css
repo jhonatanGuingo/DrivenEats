@@ -1,6 +1,4 @@
-* {
-	box-sizing: border-box;
-}
+
 h1{
     font-family: 'Righteous';
     font-style: normal;
@@ -88,7 +86,11 @@ h3{
    right: 16px;
     bottom: 16px;
     position: absolute;
+    display: none;
+ }
 
+ .borda ion-icon{
+    display: block;
  }
 .container-body{
     
