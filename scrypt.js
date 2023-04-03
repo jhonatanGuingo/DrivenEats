@@ -33,7 +33,7 @@ function whatsApp() {
     total = 'R$'+total;
     console.log(total);
 
-    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Sobremesa : ${nameE}\nTotal: ${total}\n`);
+    let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Sobremesa : ${nameE}\nTotal: ${total}`);
     console.log(wpp);
     window.open(wpp);
 
