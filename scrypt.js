@@ -30,7 +30,7 @@ function whatsApp() {
     total = total.toFixed(2);
     total = `${total}`;
     total=total.replace('.', ',');
-    total = 'R$'+total;
+    total = 'R$ '+ total;
     console.log(total);
 
     let wpp = "https://wa.me/32985039406?text=" + encodeURIComponent(`Olá, gostaria de fazer o pedido:\n- Prato: ${nameF}\n- Bebida: ${nameD}\n- Sobremesa : ${nameE}\nTotal: ${total}`);
